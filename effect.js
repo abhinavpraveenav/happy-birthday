@@ -2,6 +2,19 @@ $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
+#b1, #b2, #b3, #b4, #b5, #b6 {
+  width: 120px;
+  height: 160px;
+  border-radius: 60% 60% 60% 60%;
+  position: absolute;
+  padding: 10px;
+}
+
+#b1 h2, #b2 h2, #b3 h2, #b4 h2, #b5 h2, #b6 h2 {
+  font-size: 48px;
+  line-height: 160px;
+  margin: 0;
+}
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
