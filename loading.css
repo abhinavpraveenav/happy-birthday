@@ -52,6 +52,7 @@
 }
 
 /* Animation */
+
 @-webkit-keyframes spinner {
   0% {
     -webkit-transform: rotate(0deg);
@@ -114,45 +115,5 @@
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
-  }
-}
-
-/* Resize Balloons b1 to b6 */
-#b1, #b2, #b3, #b4, #b5, #b6 {
-  width: 120px;              /* Default size for larger screens */
-  height: 160px;
-  border-radius: 60% 60% 60% 60%;
-  position: absolute;
-  padding: 10px;
-}
-
-#b1 h2, #b2 h2, #b3 h2, #b4 h2, #b5 h2, #b6 h2 {
-  font-size: 48px;           /* Size of letter inside balloon */
-  line-height: 160px;        /* Vertical centering */
-  margin: 0;
-}
-
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-  #b1, #b2, #b3, #b4, #b5, #b6 {
-    width: 80px;              /* Smaller size for mobile devices */
-    height: 100px;
-  }
-
-  #b1 h2, #b2 h2, #b3 h2, #b4 h2, #b5 h2, #b6 h2 {
-    font-size: 30px;           /* Smaller font size for mobile */
-    line-height: 100px;        /* Adjust vertical centering */
-  }
-}
-
-@media (max-width: 480px) {
-  #b1, #b2, #b3, #b4, #b5, #b6 {
-    width: 60px;              /* Even smaller for very small screens */
-    height: 80px;
-  }
-
-  #b1 h2, #b2 h2, #b3 h2, #b4 h2, #b5 h2, #b6 h2 {
-    font-size: 24px;           /* Further reduced font size */
-    line-height: 80px;         /* Adjust vertical centering */
   }
 }
