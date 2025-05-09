@@ -117,3 +117,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Resize Balloons b1 to b6 */
+#b1, #b2, #b3, #b4, #b5, #b6 {
+  width: 120px;              /* Adjust size as needed */
+  height: 160px;
+  border-radius: 60% 60% 60% 60%;
+  position: absolute;
+  padding: 10px;
+}
+
+#b1 h2, #b2 h2, #b3 h2, #b4 h2, #b5 h2, #b6 h2 {
+  font-size: 48px;           /* Size of letter inside balloon */
+  line-height: 160px;        /* Vertical centering */
+  margin: 0;
+}
